@@ -1,0 +1,49 @@
+{
+    "version": "4.4-dev6",
+    "description": "A feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface.",
+    "homepage": "https://godotengine.org/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/godotengine/godot-builds/releases/download/4.4-dev6/Godot_v4.4-dev6_mono_win64.zip",
+            "hash": "sha512:31786996d9ca5cc32139230403d4c1ff768eeea3aaa6507e01dccbd3de3c83b92e09fa8a6ad45698372283151fae74e5681e25474e70ee6ee7af1ce61ab909ff",
+            "extract_dir": "Godot_v4.4-dev6_mono_win64"
+        },
+        "32bit": {
+            "url": "https://github.com/godotengine/godot-builds/releases/download/4.4-dev6/Godot_v4.4-dev6_mono_win32.zip",
+            "hash": "sha512:65ba9dfe776f3cfd9bed93b55aceabd523907fbdbe7013516f3802937e782192830926c81595d424e23d3f902fc51135ec4d600e6ebab3f0739ff02e24135517",
+            "extract_dir": "Godot_v4.4-dev6_mono_win32"
+        }
+    },
+    "pre_install": [
+        "Remove-Item \"$dir\\Godot_*_console.*\"",
+        "Get-Item \"$dir\\Godot_*.exe\" | Rename-Item -NewName 'godot-mono.exe'"
+    ],
+    "bin": "godot-mono.exe",
+    "shortcuts": [
+        [
+            "godot-mono.exe",
+            "Godot Engine (Mono)"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/godotengine/godot-builds/releases",
+        "regex": "(?<ver>[\\d.]+)-dev(?<dev>[\\d.]+)",
+        "replace": "${1}-dev${2}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/godotengine/godot-builds/releases/download/$version/Godot_v$version_mono_win64.zip",
+                "extract_dir": "Godot_v$version_mono_win64"
+            },
+            "32bit": {
+                "url": "https://github.com/godotengine/godot-builds/releases/download/$version/Godot_v$version_mono_win32.zip",
+                "extract_dir": "Godot_v$version_mono_win32"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA512-SUMS.txt"
+        }
+    }
+}
