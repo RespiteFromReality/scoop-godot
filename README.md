@@ -1,4 +1,6 @@
 # Scoop Godot
+[![Excavator](https://github.com/RespiteFromReality/scoop-godot/actions/workflows/excavator.yml/badge.svg?branch=main)](https://github.com/RespiteFromReality/scoop-godot/actions/workflows/autoupdate.yml)
+
 A third-party scoop bucket tracking [Godot](https://godotengine.org/) versions
 # Install
 - Install [scoop](https://scoop.sh/)
@@ -11,4 +13,3 @@ A third-party scoop bucket tracking [Godot](https://godotengine.org/) versions
 - To install a package use `scoop install godot/<package name>` (like godot-beta-mono)
 # Disclaimers
 - Provided as-is, do not make this a core dependency of your workflow or god forbit CI/CD.
-- I'm not running GitHub Actions to autoupdate, so updates may be delayed.
