@@ -25,9 +25,10 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/godotengine/godot-builds/releases",
+        "url": "https://api.github.com/repos/godotengine/godot/releases",
         "jsonpath": "$[*].tag_name",
-        "regex": "(?<version>[\\d\\w.]+)-stable"
+        "regex": "(?<version>4\\.[\\d.]+)-stable",
+        "replace": "${version}"
     },
     "autoupdate": {
         "architecture": {
