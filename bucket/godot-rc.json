@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/godotengine/godot-builds/releases/download/4.5-rc1/Godot_v4.5-rc1_win64.exe.zip",
-            "hash": "sha512:816991154cb198571533274dac2b889f010b2cdbaf3eb5d9cf4c92d17cc1a77b07ea1ba37a7dedbe791c65f65e181a8a9215244320430380b3c2cd35d0c0dbb6"
+            "hash": "sha512:e184873da18351a9e2363232ac957f82bf6afece53ef986b0b9184b65f4e9d76655c898d72452baf78233213626875b69c792e9d589a1a23d20355dd40ea7a4b"
         },
         "32bit": {
             "url": "https://github.com/godotengine/godot-builds/releases/download/4.5-rc1/Godot_v4.5-rc1_win32.exe.zip",
