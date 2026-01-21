@@ -1,18 +1,18 @@
 {
-    "version": "4.6-rc2",
+    "version": "4.5.2-rc1",
     "description": "A feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface.",
     "homepage": "https://godotengine.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/godotengine/godot-builds/releases/download/4.6-rc2/Godot_v4.6-rc2_mono_win64.zip",
-            "hash": "sha512:4bb36239e266a757d7ab79c09b278c2d52e83c8b81925ab6117b16c938b06557e7e2dd44390c79199b70b6d8437b1d671bdc36682b88c1e74772b8af2e36a0ca",
-            "extract_dir": "Godot_v4.6-rc2_mono_win64"
+            "url": "https://github.com/godotengine/godot-builds/releases/download/4.5.2-rc1/Godot_v4.5.2-rc1_mono_win64.zip",
+            "hash": "sha512:4d49f995391d4361ed9de1a54cc1043538d9e32f5367513c88aeefa5d378dcfa5c3d9d7f9f12737b5b397964586e24c40ef14c955855533cd0b486999ff81c8f",
+            "extract_dir": "Godot_v4.5.2-rc1_mono_win64"
         },
         "32bit": {
-            "url": "https://github.com/godotengine/godot-builds/releases/download/4.6-rc2/Godot_v4.6-rc2_mono_win32.zip",
-            "hash": "sha512:021022703bb2fab8727d45fef0e1df79ac3787329aca3e1a799272cba27c10b3069c1c2dda9ff4229b9d254bbb0187265e80454306e3deaca6dd2ce416b6b6a8",
-            "extract_dir": "Godot_v4.6-rc2_mono_win32"
+            "url": "https://github.com/godotengine/godot-builds/releases/download/4.5.2-rc1/Godot_v4.5.2-rc1_mono_win32.zip",
+            "hash": "sha512:c2840e974577df038bd835db7e2549563db0ce233c4fc9f50181ed89dfae7c057d01079a215e84673e0671d5b0028ce30743824bf4efedae19c1330211dbce25",
+            "extract_dir": "Godot_v4.5.2-rc1_mono_win32"
         }
     },
     "pre_install": [
