@@ -1,16 +1,16 @@
 {
-    "version": "4.7-beta4",
+    "version": "4.7-beta5",
     "description": "A feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface.",
     "homepage": "https://godotengine.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/godotengine/godot-builds/releases/download/4.7-beta4/Godot_v4.7-beta4_win64.exe.zip",
-            "hash": "sha512:a28ff1bf5ce9daae791f11a0d4c16abb7dd9a09477d746a9adcc88ef0b7277dcc97ddb85fcc96ae10d1fc9059c443aebf89f672954723de9082eb70b5a8d5409"
+            "url": "https://github.com/godotengine/godot-builds/releases/download/4.7-beta5/Godot_v4.7-beta5_win64.exe.zip",
+            "hash": "sha512:5c3a7307dbd5b724fcbcd1ac155326618e613c38f0d033b36810502bffa9a73fed6de87004496dcfa34175bdd25d4b6a7f2683aa6d67dc39b535d3dcdff8cfdb"
         },
         "32bit": {
-            "url": "https://github.com/godotengine/godot-builds/releases/download/4.7-beta4/Godot_v4.7-beta4_win32.exe.zip",
-            "hash": "sha512:29d869df9a2c6cab61fea6a41931cf32c4769ac53a65dd4c08a0d68bc4d2060d48d4b0aee9af7dd505436677ca0aac04a7dcd7416a8a3cd95de9ab8d39f993d4"
+            "url": "https://github.com/godotengine/godot-builds/releases/download/4.7-beta5/Godot_v4.7-beta5_win32.exe.zip",
+            "hash": "sha512:866e79a13a9108b133d3c0f7ec74db0a53e8a83866745039c4e52bdac0b6679ddf1abf88b716c5326510ed1b5e2a05a3802c971618cd328acf4c8ba7f11b1a8c"
         }
     },
     "pre_install": [
