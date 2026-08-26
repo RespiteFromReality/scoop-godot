@@ -1,16 +1,16 @@
 {
-    "version": "4.8-dev3",
+    "version": "4.8-dev4",
     "description": "A feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface.",
     "homepage": "https://godotengine.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/godotengine/godot-builds/releases/download/4.8-dev3/Godot_v4.8-dev3_win64.exe.zip",
-            "hash": "sha512:1feaf4fd4409bf3acd4dbbccb399130b868ec0579de0fd9f4c4f32d5225c28e9298181f27025f2bc8c485241a78ac34a76bda9a64199a5033c69a4c0f466d389"
+            "url": "https://github.com/godotengine/godot-builds/releases/download/4.8-dev4/Godot_v4.8-dev4_win64.exe.zip",
+            "hash": "sha512:de96435682c5ce3514e06b5bbaac28eafe9931adf112a4e032a24311e48cc35bbc9546cea5424a36910371b1fb81dc2af9b0655d6d54d2d6dbeb3401b0553b2b"
         },
         "32bit": {
-            "url": "https://github.com/godotengine/godot-builds/releases/download/4.8-dev3/Godot_v4.8-dev3_win32.exe.zip",
-            "hash": "sha512:cd382a896a50f8b80da8d75df9f366daef633bb313d8274ef18d39beac096950d39df6106bf411fa77723ce9f01f1c822e1b9f86061b8aa277ce1352ab46edda"
+            "url": "https://github.com/godotengine/godot-builds/releases/download/4.8-dev4/Godot_v4.8-dev4_win32.exe.zip",
+            "hash": "sha512:c801a25def360ed8f1c9211e1e57cb65f519fefc86b8182c1058714ca13186383fdfd2ba47776a55b78337ce57e0662f8c310a3a1683f67c67c3c8bf3917de03"
         }
     },
     "pre_install": [
